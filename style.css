@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    #name {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    }
+
+    h1{
+    font-size: 2.5em;
+    margin-top: 30%;
+    }
+
+    #body {
+    height: 55%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    }
+
+    h2{
+    width: 55%;
+    margin: auto;
+    font-size: 2.2em;
+    }   
+}
+
+a {
+    text-decoration:none;
+    color: rgba(0, 0, 0, .9);
+}
+
+a:hover{
+    font-size:1.1em;
+}
+    
+#header ul li {
+    z-index: 5;
+    display: inline;
+    font-size: 1.5em;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#header {
+    z-index: 4;
+    position: fixed;
+    height: 6%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(211,211,211,0.8);
+}
+
+
+
+#name {
+    height: 50%;
+    width: 40%;
+    background-image: url("http://freedesignfile.com/upload/2015/01/Vector-handmade-watercolor-background-graphics-02.jpg");
+    background-size: cover;
+    float:left;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    text-align:center;
+    margin-top: 20%;
+    background-color:rgba(211,211,211,0.8);
+}
+
+#body {
+    display: inline-block;
+    height: 50%;
+    width: 40%;
+    background-color:;
+    float:right;
+    margin-top: 8%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin:12%; 8%;
+    font-size: 2.2em;
+    font-weight: 200;
+}
+
+.cursive {
+    font-family: 'Roboto', sans-serif;
+}
+
+#red{
+    color: rgba(32,178,170,1);
+}
+
+#blue{
+    color: rgba(255,69,0,1);
+}
+
+#yellow{
+    color: rgba(255,215,0,1);
+}
+
+#footer ul li {
+    z-index: 5;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer{
+    z-index: 4;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(211,211,211,0.8);
+}
+
+li img{
+    margin-top: -0.8em;
+    height: 1.5em;
+    width: 1.5em;
+}
